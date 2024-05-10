@@ -6,8 +6,6 @@ import requests
 import threading
 import time
 import logging
-from flask import Flask
-from keep_alive import keep_alive
 import traceback
 from binascii import (
     Error
@@ -53,9 +51,6 @@ Bot = Client(
     api_id=Config.API_ID,
     api_hash=Config.API_HASH
 )
-
-keep_alive()
-print("hi")
 
 @Bot.on_message(filters.private)
 async def _(bot: Client, cmd: Message):
