@@ -1,7 +1,6 @@
-# (c) @TeleRoidGroup || @PredatorHackerzZ
-
 import os
 import asyncio
+from keep_alive import keep_alive
 import traceback
 from binascii import (
     Error
@@ -48,6 +47,8 @@ Bot = Client(
     api_hash=Config.API_HASH
 )
 
+keep_alive()
+print("hi")
 
 @Bot.on_message(filters.private)
 async def _(bot: Client, cmd: Message):
