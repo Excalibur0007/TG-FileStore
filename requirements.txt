@@ -6,7 +6,6 @@ dnspython
 psutil
 render
 requests
-os
 asyncio
 random
 string
