@@ -7,15 +7,15 @@ class Config(object):
     API_HASH = "1112f49bbb8874584a1a7289c9301594"
     BOT_TOKEN = "6546264993:AAGLUyNFeKB5fyHSLmwVak-AuN3Wk5YmH70"
     BOT_USERNAME = "Red_Cherry_bot"
-    DB_CHANNEL = "-1002057394131"  # Replace with your actual DB_CHANNEL ID
+    DB_CHANNEL = "1002057394131"  # Replace with your actual DB_CHANNEL ID
     BOT_OWNER = "6233223488"  # Replace with your actual BOT_OWNER ID
     DATABASE_URL = "mongodb+srv://creation1shubham1:EZBgwEG92ttxvJDA@2amstories.fkf0rb1.mongodb.net/"
-    UPDATES_CHANNEL = "-1002027744552"
-    LOG_CHANNEL = "-1002057394131"
+    UPDATES_CHANNEL = "1002027744552"
+    LOG_CHANNEL = "1002057394131"
     BANNED_USERS = {}  # Replace with your actual BANNED_USERS IDs
     FORWARD_AS_COPY = True
     BROADCAST_AS_COPY = False
-    BANNED_CHAT_IDS = [-1001362659779, -1001255795497]  # Replace with your actual BANNED_CHAT_IDS
+    BANNED_CHAT_IDS = []  # Replace with your actual BANNED_CHAT_IDS
     OTHER_USERS_CAN_SAVE_FILE = False
     ABOUT_BOT_TEXT = """
 🍒 **Welcome to Red Cheery Leaks!**
