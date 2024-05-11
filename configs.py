@@ -10,8 +10,8 @@ class Config(object):
     DB_CHANNEL = "-1002057394131"  # Replace with your actual DB_CHANNEL ID
     BOT_OWNER = "6233223488"  # Replace with your actual BOT_OWNER ID
     DATABASE_URL = "mongodb+srv://creation1shubham1:EZBgwEG92ttxvJDA@2amstories.fkf0rb1.mongodb.net/"
-    UPDATES_CHANNEL = "1002027744552"
-    LOG_CHANNEL = "1002057394131"
+    UPDATES_CHANNEL = "-1002027744552"
+    LOG_CHANNEL = "-1002057394131"
     BANNED_USERS = {}  # Replace with your actual BANNED_USERS IDs
     FORWARD_AS_COPY = True
     BROADCAST_AS_COPY = False
