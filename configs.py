@@ -3,13 +3,13 @@
 import os
 
 class Config(object):
-    API_ID = 21646338  # Replace with your actual API_ID
+    API_ID = "21646338"  # Replace with your actual API_ID
     API_HASH = "1112f49bbb8874584a1a7289c9301594"
     BOT_TOKEN = "6546264993:AAGLUyNFeKB5fyHSLmwVak-AuN3Wk5YmH70"
     BOT_USERNAME = "Red_Cherry_bot"
-    DB_CHANNEL = -1002057394131  # Replace with your actual DB_CHANNEL ID
-    BOT_OWNER = 6233223488  # Replace with your actual BOT_OWNER ID
-    DATABASE_URL = "mongodb+srv://creation1shubham1:EZBgwEG92ttxvJDA@2amstories.fkf0rb1.mongodb.net/?retryWrites=true&w=majority&appName=2amstories"
+    DB_CHANNEL = "-1002057394131"  # Replace with your actual DB_CHANNEL ID
+    BOT_OWNER = "6233223488"  # Replace with your actual BOT_OWNER ID
+    DATABASE_URL = "mongodb+srv://creation1shubham1:EZBgwEG92ttxvJDA@2amstories.fkf0rb1.mongodb.net/?retryWrites=true&w=majority"
     UPDATES_CHANNEL = "1002027744552"
     LOG_CHANNEL = ""
     BANNED_USERS = {}  # Replace with your actual BANNED_USERS IDs
