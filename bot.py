@@ -7,6 +7,11 @@ import threading
 import time
 import logging
 import traceback
+from keep_alive import keep_alive
+
+keep_alive()
+print("hi")
+
 from binascii import (
     Error
 )
